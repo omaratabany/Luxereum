@@ -1,0 +1,135 @@
+/* ~~~~~~~~~~~~~~ CL_SignUp ~~~~~~~~~~~~~~ */
+
+
+.clsignup{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+.signupheading{
+    color: black;
+    align-self: center;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.emailinput{
+    width: 75%;
+    height: 62.5px;
+    align-self: center;
+    border-color: #d4af37;
+    border-radius: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+
+
+
+/* ~~~~~~~~~~~~~~ CL_Transfer ~~~~~~~~~~~~~~ */
+
+.cl_updateform{
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    border-radius: 24px;
+    justify-content: flex-start;
+    background-color: #131313;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ CL_LoginForm ~~~~~~~~~~~~~~ */
+
+.cllogincard{
+    width: 437px;
+    height: 500px;
+    display: flex;
+    box-shadow: 5px 5px 5px 0px #d4bb67;
+    align-items: flex-start;
+    padding-top: 16px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.clloginform{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cologincard{
+    width: 437px;
+    height: 500px;
+    display: flex;
+    box-shadow: 5px 5px 5px 0px #333333;
+    align-items: flex-start;
+    padding-top: 16px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.cologinform{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.loginheading{
+    color: black;
+    align-self: center;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.usernameinput{
+    width: 75%;
+    height: 62.5px;
+    align-self: center;
+    border-color: #d4af37;
+    border-radius: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.passwordinput {
+    width: 75%;
+    height: 62.5px;
+    align-self: center;
+    margin-top: var(--dl-space-space-halfunit);
+    border-color: #d4af37;
+    border-radius: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+}
+
+.forgotpassword{
+    align-self: center;
+    margin-top: 24px;
+    font-size: 16px;
+}

@@ -1,0 +1,46 @@
+.mkt_productinfo{
+
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    font-size: 32px;
+    width: 500px;
+
+}
+
+.employeeinfocontent{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.mktinfolabel{
+    padding-right: 20px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+.mktproductdetails{
+    flex: auto;
+    flex-direction: row;
+    display:flex;
+    position:relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.mktproductname{
+    width: 30vw;
+    border-bottom: 2px solid black;
+}
+
+.mktproductimage{
+    background: #eee;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px -4px black;
+    margin: 50px;
+}

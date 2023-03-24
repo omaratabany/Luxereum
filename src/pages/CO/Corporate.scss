@@ -1,0 +1,377 @@
+/* ~~~~~~~~~~~~~~ CorporateCreate ~~~~~~~~~~~~~~ */
+
+.corporatehome{
+    width:100%;
+    display:flex;
+    height: 100vh;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #333333;
+
+}
+
+.co_sidebar{
+    flex: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:100%;
+}
+
+.co_content{
+    flex: 0 0 auto;
+    width: 100%;
+    // height:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+}
+
+.columncontainer{
+    flex: auto;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.co_create_content{
+    flex: auto;
+    width: 100%;
+    padding: 20px;
+    // height:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ CorporateHome ~~~~~~~~~~~~~~ */
+
+.corporatehome{
+    width:100%;
+    display:flex;
+    height: 100vh;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.co_sidebar{
+    flex: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:100%;
+}
+
+.co_home_column{
+    flex: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+}
+
+.homecolumncontainer{
+    flex: auto;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.co_home_content{
+    flex: 0 0 auto;
+    width: 100%;
+    // height:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+}
+
+.co_home_content_left{
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:40%;
+    // height:100%;
+}
+
+.co_home_content_right{
+    flex: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:55%;
+    // height:100%;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ CorporateLogin ~~~~~~~~~~~~~~ */
+
+form {   
+    border: 3px solid #f1f1f1;   
+}   
+input[type=text], input[type=password] {   
+width: 100%;   
+margin: 8px 0;  
+padding: 12px 20px;   
+display: inline-block;   
+border: 2px solid;   
+box-sizing: border-box;   
+}  
+button:hover {   
+    opacity: 0.7;   
+}   
+
+    
+ 
+.container {   
+padding: 25px;   
+background-color: lightblue;  
+
+margin:auto;
+width:20%;
+padding:10px;
+transform:translate(0,100%);
+}   
+
+.submitLoginbutton{
+    width: 100%;
+    padding: 15px; 
+    margin: 10px 0px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.cancelbtn {   
+    width: 20%;   
+    padding: 10px 18px;  
+    margin: 10px 15px;
+    border: none; 
+    cursor: pointer; 
+}   
+
+
+
+/* ~~~~~~~~~~~~~~ CorporateLogs ~~~~~~~~~~~~~~ */
+
+.corporatehome{
+    width:100%;
+    display:flex;
+    height: 100vh;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #333333;
+
+}
+
+.co_sidebar{
+    flex: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:100%;
+}
+
+.co_content{
+    flex: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+}
+
+.columncontainer{
+    flex: auto;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.co_logs_content{
+    flex: auto;
+    width: 100%;
+    padding: 20px;
+    // height:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ CorporateRevoke ~~~~~~~~~~~~~~ */
+
+.corporatehome{
+    width:100%;
+    display:flex;
+    height: 100vh;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #333333;
+
+}
+
+.co_sidebar{
+    flex: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:100%;
+}
+
+.co_content{
+    flex: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+}
+
+.columncontainer{
+    flex: auto;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.co_revoke_content{
+    flex: auto;
+    width: 100%;
+    padding: 20px;
+    // height:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ CorporateTransfer ~~~~~~~~~~~~~~ */
+
+.corporatehome{
+    width:100%;
+    display:flex;
+    height: 100vh;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #333333;
+
+}
+
+.co_sidebar{
+    flex: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:100%;
+}
+
+.co_content{
+    flex: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+}
+
+.columncontainer{
+    flex: auto;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.co_transfer_content{
+    flex: auto;
+    width: 100%;
+    padding: 20px;
+    // height:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ CorporateUpdate ~~~~~~~~~~~~~~ */
+
+.corporatehome{
+    width:100%;
+    display:flex;
+    height: 100vh;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #333333;
+
+}
+
+.co_sidebar{
+    flex: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:100%;
+}
+
+.co_content{
+    flex: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+}
+
+.columncontainer{
+    flex: auto;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}

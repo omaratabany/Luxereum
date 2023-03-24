@@ -1,0 +1,142 @@
+/* ~~~~~~~~~~~~~~ BackGroundVideo ~~~~~~~~~~~~~~ */
+
+.backgroundvideo{
+    width: 100%;
+    height: 100vh;
+}
+
+video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+/* ~~~~~~~~~~~~~~ HP_HamburgerMenu ~~~~~~~~~~~~~~ */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #page-wrap {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+
+/* ~~~~~~~~~~~~~~ HP_Header ~~~~~~~~~~~~~~ */
+
+.header {
+    background: transparent;
+    width:100%;
+    height:200px;
+    display:flex;
+    position:relative;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 100;
+}
+
+.leftHeader{
+    
+    left:0px;
+    flex:1;
+    margin-top:10px;
+    margin-left:10px;
+    width:auto;
+    height:auto;
+    display:flex;
+    position:absolute;
+    align-self:flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.leftButtons{
+    flex:auto;
+    width:auto;
+    z-index:100;
+    display:flex;
+    align-self:flex-start;
+    align-items:flex-start;
+    flex-direction:row;
+}
+
+.centerHeader {
+
+    margin: auto;
+    align-self:center;
+    text-align: center;
+    position:absolute;
+    top:0px;
+    flex:auto;
+    flex-direction: column;
+}
+
+.rightHeader{
+    margin-top:10px;
+    margin-right:10px;
+    flex:1;
+    right:0px;
+    width:auto;
+    display:flex;
+    position:absolute;
+    align-self:flex-start;
+    align-items:flex-end;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.rightButtons{
+    flex:auto;
+    width:auto;
+    height:auto;
+    display:flex;
+    align-self:flex-start;
+    align-items:flex-end;
+    margin-left:0px;
+    justify-content:flex-start;
+}
+
+.logoimg{
+    width: 150px;
+    height: 150px;
+}
+
+.testButton{
+    size: 50px;
+}
+
+.companyName{
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px; 
+    width:auto;
+    font-family: system-ui;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FAE9A8;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ HP_PresentedProducts ~~~~~~~~~~~~~~ */
+
+.productcardset{
+    z-index: 100;
+    flex:auto;
+    width:auto;
+    z-index:100;
+    display:flex;
+    align-self:flex-start;
+    align-items:flex-start;
+    flex-direction:row;
+    margin-top:20px;
+}
+
+.zoom{
+    opacity: 10;
+}

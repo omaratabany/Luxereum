@@ -1,0 +1,70 @@
+
+
+
+
+ .mkt_header{
+    width:100%;
+    height:80px;
+    display:flex;
+    position:relative;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+
+.mktlogo{
+    display: flex;
+    width: auto;
+    height: 70px;
+    align-items: flex-start;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    color:white;
+    
+}
+.mktname{
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    color:white;
+}
+
+
+
+
+
+
+.mktsearchbar{
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.mktcompanylogo{
+    display:flex;
+    position: relative;
+    flex-direction: row;
+    align-self: center;
+    justify-content: flex-start;
+    margin-left: 50px;
+    
+    margin-bottom: -10px;
+} 
+
+.rightmktButtons{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    flex: auto;
+    justify-content: center;
+    flex-direction: row;
+    color:white;
+}
