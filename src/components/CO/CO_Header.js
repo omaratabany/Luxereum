@@ -8,7 +8,6 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 
 
-
 const CO_Header = () => (
     <div className='co_header'>
         <div className='usergreeting'>

@@ -3,7 +3,6 @@ import './CO.css'
 
 import certimg from '../../assets/Images/image-24@2x.png'
 
-
 function CO_CertCard() { 
     const [cert, setcert] = useState(null);
 
