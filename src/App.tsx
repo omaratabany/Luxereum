@@ -22,6 +22,7 @@ import MarketWatches from './pages/MKT/MarketWatches'
 import MarketBrowse from './pages/MKT/MarketBrowse'
 import MarketBags from './pages/MKT/MarketBags'
 import MarketShoes from './pages/MKT/MarketShoes'
+import MarketSearch from './pages/MKT/MarketSearch'
 // import ClientLogin from './pages/ClientLogin'
 // import CorporateLogin from './pages/CorporateLogin'
 // import ClientMainPage from './pages/ClientMainPage'
@@ -44,6 +45,7 @@ function App() {
                 {/* <Route path="ClientLogin" element={<ClientLogin />} />
                 <Route path="CorporateLogin" element={<CorporateLogin />} />
                 <Route path="ClientMainPage" element={<ClientMainPage />} /> */}
+                <Route path="Search" element={<MarketSearch />} />
                 <Route path="Market/Browse" element={<MarketBrowse />} />
                 <Route path="Market/Shoes" element={<MarketShoes />} />
                 <Route path="Market/Bags" element={<MarketBags />} />

@@ -15,7 +15,7 @@ function ClientHome() {
                 </div>
                 <div className='co_home_column'>
                     <CL_Header />
-                    <div className='cl_home_content'>
+                    <div className='cl_sell_content'>
                         <h1 className='yourcertificateslabel'>Sell Certificates</h1>
                         <div>
                             <CL_Listing />

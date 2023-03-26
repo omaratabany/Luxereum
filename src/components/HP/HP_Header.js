@@ -18,8 +18,7 @@ const HP_Header = () => (
   <div className="header">
     <div className="leftHeader">
       <div className="leftButtons">
-      <Button variant="outlined" sx={{color: 'white', borderColor: "gray", opacity:0.7, backgroundColor:"gray", width:"130px", height:"41px", ':hover':{backgroundColor: "whitesmoke", color:"gray", borderColor:"gray"}}}><MenuIcon />Menu</Button>
-      <Button component={Link} to="/Market" variant="outlined" sx={{color: 'white', opacity:0.7, marginLeft: "32px", borderColor: "gray", backgroundColor:"gray", width:"130px", height:"41px", ':hover':{backgroundColor: "whitesmoke", color:"gray", borderColor:"gray"}}}>Market</Button>
+      <Button component={Link} to="/Market" variant="outlined" sx={{color: 'white', opacity:0.7, borderColor: "gray", backgroundColor:"gray", width:"130px", height:"41px", ':hover':{backgroundColor: "whitesmoke", color:"gray", borderColor:"gray"}}}>Market</Button>
       <Button component={Link} to="/Market/Watches" variant="outlined" sx={{color: 'white', opacity:0.7, marginLeft: "32px", borderColor: "gray", backgroundColor:"gray", width:"130px", height:"41px", ':hover':{backgroundColor: "whitesmoke", color:"gray", borderColor:"gray"}}}>Watches</Button>
       <Button component={Link} to="/Market/Shoes" variant="outlined" sx={{color: 'white', opacity:0.7, marginLeft: "32px", borderColor: "gray", backgroundColor:"gray", width:"130px", height:"41px", ':hover':{backgroundColor: "whitesmoke", color:"gray", borderColor:"gray"}}}>Shoes</Button>
       <Button component={Link} to="/Market/Bags" variant="outlined" sx={{color: 'white', opacity:0.7, marginLeft: "32px", borderColor: "gray", backgroundColor:"gray", width:"130px", height:"41px", ':hover':{backgroundColor: "whitesmoke", color:"gray", borderColor:"gray"}}}>Bags</Button>
@@ -33,7 +32,7 @@ const HP_Header = () => (
     <div className="rightHeader">
     <div className="rightButtons">
       <Button component={Link} to="/Search" variant="outlined" sx={{color: 'white', opacity:0.7, marginLeft: "32px", borderColor: "gray", backgroundColor:"gray", width:"41px", height:"41px", ':hover':{backgroundColor: "whitesmoke", color:"gray", borderColor:"gray"}}}><SearchIcon /></Button>
-      <Button component={Link} to="/Market/Account/Favorites" variant="outlined" sx={{color: 'white', opacity:0.7, marginLeft: "32px", borderColor: "gray", backgroundColor:"gray", width:"41px", height:"41px", ':hover':{backgroundColor: "whitesmoke", color:"red", borderColor:"gray"}}}><FavoriteIcon/></Button>
+      <Button component={Link} to="/Market/Wishlist" variant="outlined" sx={{color: 'white', opacity:0.7, marginLeft: "32px", borderColor: "gray", backgroundColor:"gray", width:"41px", height:"41px", ':hover':{backgroundColor: "whitesmoke", color:"red", borderColor:"gray"}}}><FavoriteIcon/></Button>
       <Button component={Link} to="/LoginPage" variant="outlined" sx={{color: "black", marginLeft: "32px", borderColor: "whitesmoke", backgroundColor:"whitesmoke", width:"130px", height:"41px", ':hover':{backgroundColor: "#FAE9A8", color:"black", borderColor:"gray"}}}>Login</Button>
       <Button component={Link} to="/ClientSignUp" variant="outlined" sx={{color: "black", marginLeft: "32px", borderColor: "whitesmoke", backgroundColor:"whitesmoke", width:"130px", height:"41px", ':hover':{backgroundColor: "#FAE9A8", color:"black", borderColor:"gray"}}}>Register</Button>
     </div>

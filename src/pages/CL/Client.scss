@@ -1,13 +1,39 @@
 /* ~~~~~~~~~~~~~~ ClientHome ~~~~~~~~~~~~~~ */
 
+.clienthome{
+    width:100%;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #333333;
+    height: 150vh;
+}
+
 .cl_home_content{
     background-color: #191919;
     padding: 50px;
+    padding-top: 10px;
     width: 85%;
-    height: 70%;
+    height: 465px;
     margin-left: 60px;
     border-radius: 10px;
     overflow-y: scroll;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.cl_home_content_clientinfo{
+    background-color: #191919;
+    padding: 50px;
+    padding-top: 10px;
+    width: 85%;
+    height: 230px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .yourcertificateslabel{
@@ -19,24 +45,33 @@
     background: transparent; 
 }
 
+.yourcertificatescontent{
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 
 
 /* ~~~~~~~~~~~~~~ ClientLogin ~~~~~~~~~~~~~~ */
 
-form {   
-    border: 3px solid #f1f1f1;   
-}   
-input[type=text], input[type=password] {   
-width: 100%;   
-margin: 8px 0;  
-padding: 12px 20px;   
-display: inline-block;   
-border: 2px solid;   
-box-sizing: border-box;   
-}  
-button:hover {   
-    opacity: 0.7;   
-}   
+// form {   
+//     border: 3px solid #f1f1f1;   
+// }
+
+// input[type=text], input[type=password] {   
+// width: 100%;   
+// margin: 8px 0;  
+// padding: 12px 20px;   
+// display: inline-block;   
+// border: 2px solid;   
+// box-sizing: border-box;   
+// }  
+// button:hover {   
+//     opacity: 0.7;   
+// }   
 
     
  
@@ -135,6 +170,17 @@ transform:translate(0,100%);
     overflow-y: scroll;
 }
 
+.cl_sell_content{
+    background-color: #191919;
+    padding: 50px;
+    padding-top: 10px;
+    width: 85%;
+    height: 100%;
+    margin-left: 60px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
 
 
 /* ~~~~~~~~~~~~~~ ClientTransfer ~~~~~~~~~~~~~~ */

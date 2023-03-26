@@ -18,6 +18,7 @@ function CorporateHome() {
                 </div>
                 <div className='co_home_column'>
                     <CO_Header />
+                    
                     <div className='co_home_content'>
                         <div className='co_home_content_left'>
                             <CO_Home_EmployeeInfo />

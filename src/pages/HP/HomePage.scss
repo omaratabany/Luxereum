@@ -21,6 +21,10 @@
 
 /* ~~~~~~~~~~~~~~ HomePage ~~~~~~~~~~~~~~ */
 
+.homepage{
+    
+}
+
 .backgroundvideo{
     position:absolute;
     top:0px;
@@ -31,9 +35,13 @@
 
 .hp_presentedproducts{
     z-index: 100;
-    width:88%;
-    left:10px;
-    margin: auto;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .hp_header{

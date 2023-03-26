@@ -8,7 +8,7 @@ function CO_CertCard() {
     const [cert, setcert] = useState(null);
 
     useEffect(() => {
-      fetch('public/certdata.json')
+      fetch('/certdata.json')
         .then(response => response.json())
         .then(data => {
           setcert(data.cert[0]);
