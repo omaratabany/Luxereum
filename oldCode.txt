@@ -1,0 +1,22 @@
+<div>
+            <div className="title">
+                <img
+                    src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png"
+                    className="logo"
+                />
+            </div>
+            <div className="corpClientButtons">
+                <a href="https://www.google.com" className="corporateLink">
+                    <div className="split left">
+                        <div className="centered">Corporate</div>
+                    </div>
+                </a>
+
+                <a href="https://www.google.com" className="corporateLink">
+                    <div className="split right">
+                        <div className="centered">Client</div>
+                    </div>
+                </a>
+            </div>
+            <input className="quickSearch" />
+        </div>
