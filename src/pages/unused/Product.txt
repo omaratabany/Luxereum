@@ -1,0 +1,42 @@
+// import React from 'react'
+// import './Product.scss'
+
+// import MKT_Header from '../../components/MKT/MKT_Header.js';
+// import MKT_ProductInfo from '../../components/MKT/MKT_ProductInfo';
+
+// import { Button } from "@mui/material"
+
+
+// import FavoriteIcon from '@mui/icons-material/Favorite';
+// import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
+
+
+// function Product() {
+//     return (
+//         <div className='productpage'>
+//             <div className='mkt_header'>
+//                 <MKT_Header />
+//             </div>
+//             <div className='mktproductcolumns'>
+//                 <div className='mktproductleft'>
+                    
+//                     <div className='mktproductinfo'>
+//                         <MKT_ProductInfo />
+//                     </div>
+//                 </div>
+//                 <div className='mktproductright'>
+//                     <Button variant="outlined" sx={{color: 'black', boxShadow:"0px 4px 8px -2px black", marginBottom: "60px", borderColor: "black", backgroundColor:"whitesmoke", width:"200px", height:"41px", ':hover':{backgroundColor: "#333333", color:"white", borderColor:"black"}}}><FavoriteIcon/>&nbsp;&nbsp;Add to wishlist</Button>
+//                     <Button variant="outlined" sx={{color: "black", boxShadow:"0px 4px 8px -2px black", marginBottom: "100px", borderColor: "black", backgroundColor:"whitesmoke", width:"200px", height:"41px", ':hover':{backgroundColor: "#333333", color:"white", borderColor:"black"}}}><ShoppingCartIcon/>&nbsp;&nbsp;Add to cart</Button>
+//                 </div>
+//             </div>
+            
+            
+            
+
+//         </div>
+        
+//     );
+// }
+
+// export default Product;

@@ -1,0 +1,196 @@
+/* ~~~~~~~~~~~~~~ ClientHome ~~~~~~~~~~~~~~ */
+
+.clienthome{
+    width:100%;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #333333;
+    height: 150vh;
+}
+
+.cl_home_content{
+    background-color: #191919;
+    padding: 50px;
+    padding-top: 10px;
+    width: 85%;
+    height: 465px;
+    margin-left: 60px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.cl_home_content_clientinfo{
+    background-color: #191919;
+    padding: 50px;
+    padding-top: 10px;
+    width: 85%;
+    height: 230px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.yourcertificateslabel{
+    font-weight: 200;
+    color:white;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
+}
+
+.yourcertificatescontent{
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ ClientLogin ~~~~~~~~~~~~~~ */
+
+// form {   
+//     border: 3px solid #f1f1f1;   
+// }
+
+// input[type=text], input[type=password] {   
+// width: 100%;   
+// margin: 8px 0;  
+// padding: 12px 20px;   
+// display: inline-block;   
+// border: 2px solid;   
+// box-sizing: border-box;   
+// }  
+// button:hover {   
+//     opacity: 0.7;   
+// }   
+
+    
+ 
+.container {   
+padding: 25px;   
+background-color: lightblue;  
+
+margin:auto;
+width:20%;
+padding:10px;
+transform:translate(0,100%);
+}   
+
+.submitLoginbutton{
+    width: 100%;
+    padding: 15px; 
+    margin: 10px 0px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.cancelbtn {   
+    width: 20%;   
+    padding: 10px 18px;  
+    margin: 10px 15px;
+    border: none; 
+    cursor: pointer; 
+}   
+
+
+
+/* ~~~~~~~~~~~~~~ ClientLogs ~~~~~~~~~~~~~~ */
+
+
+
+/* ~~~~~~~~~~~~~~ ClientMainPage ~~~~~~~~~~~~~~ */
+
+.leftColumnClient{
+    float: left;
+    width:20%;
+    padding: 20px;
+    border: solid;
+    margin: 5px;
+}
+
+.rightColumnClient{
+    float: left;
+    width:70%;
+    padding: 1%;
+    border: solid;
+    margin: 5px;
+}
+
+.clientName{
+    border:solid;
+    padding:10px;
+}
+
+.clientPage{
+    left: 50px;
+}
+
+.refreshButton{
+    width: 100%;
+    padding: 15px; 
+    margin: 10px 0px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 30px;
+}
+
+.itemsClientColumn {
+    float: left;
+    width: 33%;
+}
+
+.minimizedImage {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 480px;
+}
+  
+  .zoom:hover {
+    transition: transform .2s;
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+
+
+/* ~~~~~~~~~~~~~~ ClientSell ~~~~~~~~~~~~~~ */
+
+.yourcertificateslabel{
+    overflow-y: scroll;
+}
+
+.cl_sell_content{
+    background-color: #191919;
+    padding: 50px;
+    padding-top: 10px;
+    width: 85%;
+    height: 100%;
+    margin-left: 60px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+
+/* ~~~~~~~~~~~~~~ ClientTransfer ~~~~~~~~~~~~~~ */
+
+.cl_sidebar{
+    flex: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:100%;
+}
+
