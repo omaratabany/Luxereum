@@ -48,6 +48,12 @@ const MKT_Header = () => (
                 "& .MuiInputLabel-root": {color: 'black'},
                 '& .MuiFilledInput-underline:after': { borderBottomColor: '#d4af37', textcolor: "#d4af37", borderBottomWidth: "4px" },
             }}
+
+            onKeyPress={(e) => {
+                if (e.key === 'Enter') {
+                    window.location.replace("http://localhost:3000/Search");
+                }
+              }}
         />
 
         <a href='/Market/Browse' style={{textDecoration: 'none'}} className='mkt_header_link'>

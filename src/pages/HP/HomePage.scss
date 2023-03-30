@@ -1,3 +1,42 @@
+/* ~~~~~~~~~~~~~~ AboutUs ~~~~~~~~~~~~~~ */
+
+.aboutus{
+    
+}
+
+.aboutuscontentcontainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.aboutuscontent{
+    background-color: black;
+    width: 1064px;
+    height: auto;
+    align-self: center;
+    display: flex;
+    margin-top: 36px;
+    object-fit: cover;
+    color: white;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.aboutusheader{
+    font-size: 48px;
+    padding-bottom: 10px;
+    
+}
+
+
+
 /* ~~~~~~~~~~~~~~ ClientSignUp ~~~~~~~~~~~~~~ */
 
 .signupcontainer{
@@ -21,6 +60,8 @@
 
 /* ~~~~~~~~~~~~~~ HomePage ~~~~~~~~~~~~~~ */
 
+
+
 .backgroundvideo{
     position:absolute;
     top:0px;
@@ -31,9 +72,13 @@
 
 .hp_presentedproducts{
     z-index: 100;
-    width:88%;
-    left:10px;
-    margin: auto;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .hp_header{

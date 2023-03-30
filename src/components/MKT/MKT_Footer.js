@@ -22,9 +22,9 @@ const MKT_Footer = () => (
         <div className='mkt_footer_about'>
             <text className='mkt_footer_about_title'>About</text>
 
-            <text className='mkt_footer_about_text'>
-                qwerty
-            </text>
+
+            <a href='/AboutUs' style={{textDecoration: 'none'}} className='mkt_footer_about_text'>About Us</a>
+            
         </div>
 
         <div className='mkt_footer_categories'>
@@ -48,7 +48,9 @@ const MKT_Footer = () => (
         <div className='mkt_footer_contactus'>
             <text className='mkt_footer_contactus_title'>Contact Us</text>
 
-            <text className='mkt_footer_contactus_text'>050 123 4567</text>
+            <text className='mkt_footer_contactus_text'>aaaaa912@uowmail.edu.au</text>
+            <text className='mkt_footer_contactus_text'>oe749@uowmail.edu.au</text>
+            <text className='mkt_footer_contactus_text'>ADD MORE</text>
         </div>
     </div>
 )

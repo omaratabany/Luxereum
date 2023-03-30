@@ -6,6 +6,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 
 import { styled } from '@mui/material/styles';
 import { Button } from "@mui/material"
+import { TextField } from "@mui/material"
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
@@ -48,7 +49,7 @@ const CL_Listing = () => (
                     <Grid item xs container direction="column" alignItems="flex-start" sx={{justifyContent: "space-around"}}>
                         <Typography gutterBottom variant="subtitle1" component="div" sx={{color:'black', fontSize:'24px'}}>Product Name</Typography>
                         <Typography variant="body2" color="text.secondary" sx={{color:'black', fontSize:'24px'}}>ID: 1030114</Typography>
-                        <Typography variant="subtitle1" component="div" sx={{color:'black', fontSize:'24px'}}>$19.00</Typography>
+                        <TextField label="Price (USD)" variant="outlined"></TextField>
                     </Grid>
                 </Grid>
                 <Grid item xs container direction="column" alignItems="flex-end" sx={{justifyContent: "space-around"}}>

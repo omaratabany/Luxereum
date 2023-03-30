@@ -22,6 +22,7 @@ import MarketWatches from './pages/MKT/MarketWatches'
 import MarketBrowse from './pages/MKT/MarketBrowse'
 import MarketBags from './pages/MKT/MarketBags'
 import MarketShoes from './pages/MKT/MarketShoes'
+import MarketSearch from './pages/MKT/MarketSearch'
 // import ClientLogin from './pages/ClientLogin'
 // import CorporateLogin from './pages/CorporateLogin'
 // import ClientMainPage from './pages/ClientMainPage'
@@ -35,6 +36,9 @@ import MarketShoes from './pages/MKT/MarketShoes'
 // import SearchIcon from '@mui/icons-material/Search';
 // import DirectionsIcon from '@mui/icons-material/Directions';
 import { Link, Route, BrowserRouter, Routes, Outlet } from "react-router-dom";
+import AboutUs from './pages/HP/AboutUs'
+import TermsAndConditions from './pages/HP/TermsAndConditions'
+import PrivacyPolicy from './pages/HP/PrivacyPolicy'
 
 function App() {
     return (
@@ -43,7 +47,11 @@ function App() {
             <Routes>
                 {/* <Route path="ClientLogin" element={<ClientLogin />} />
                 <Route path="CorporateLogin" element={<CorporateLogin />} />
-                <Route path="ClientMainPage" element={<ClientMainPage />} /> */}
+                <Route path="ClientMainPage" element={<ClientMainPage />} /> */}\
+                <Route path="PrivacyPolicy" element={<PrivacyPolicy />} />
+                <Route path="TermsAndConditions" element={<TermsAndConditions />} />
+                <Route path="AboutUs" element={<AboutUs />} />
+                <Route path="Search" element={<MarketSearch />} />
                 <Route path="Market/Browse" element={<MarketBrowse />} />
                 <Route path="Market/Shoes" element={<MarketShoes />} />
                 <Route path="Market/Bags" element={<MarketBags />} />
