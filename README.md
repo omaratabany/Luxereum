@@ -1,5 +1,7 @@
+firstly when you open the code go to the terminal and type npm -f install 
+after that you would ignore all the error that appear as they are jst UI-conflicts that dont affect the functionality or view of the program.
 
-you also need to download metamask and have the ganache network connected and have one of the users 
+then you also need to download metamask and have the ganache network connected and have one of the users 
 as an imported wallet in your metamask these are the steps for that:
 In the Ganache workspace, click on the key icon on any of the 10 available accounts to copy the private key.
 Open the Metamask extension and click on the account icon.
@@ -34,3 +36,5 @@ after that you need to run these commands on your terminal
 
 truffle compile 
 truffle migrate --network ganache 
+
+after all is done type in the terminal npm start
