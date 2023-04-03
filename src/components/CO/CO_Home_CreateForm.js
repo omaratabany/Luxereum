@@ -18,6 +18,9 @@ const CO_Home_CreateForm = () => {
     const [CreationDate, setCreationDate] = useState("");
 
 
+
+
+
     return(
         <form className='co_home_createform'>
             <div className='createformlabel'>Product Name</div>

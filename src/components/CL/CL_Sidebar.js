@@ -27,10 +27,7 @@ const CL_Sidebar = () => (
                 <a href="/ClientTransfer" style={{textDecoration: "none"}}><img src={transferpic} style={{width: "50px", paddingRight: "10px"}}/></a>
                 <h1 className='category'><a href="/ClientTransfer" style={{textDecoration: "none", color: "white"}}>Transfer</a></h1>
             </div>
-            <div className='sidebarbutton'>
-                <a href="/ClientLogs" style={{textDecoration: "none"}}><img src={logspic} style={{width: "50px", paddingRight: "10px"}}/></a>
-                <h1 className='category'><a href="/ClientLogs" style={{textDecoration: "none", color: "white"}}>Logs</a></h1>
-            </div>
+
             
         </div>
     </div>

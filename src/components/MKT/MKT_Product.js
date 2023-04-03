@@ -36,7 +36,9 @@ const MKT_Product = () => (
             <div className='mkt_product_container_descriptioncontainer'>
                 <text className='mkt_product_container_descriptioncontainer_text'>ID: 1232</text>
                 <text className='mkt_product_container_descriptioncontainer_text'>Brand: Stuff</text>
-                <text className='mkt_product_container_descriptioncontainer_text'>Condition: Battle-Scarred</text>
+                <text className='mkt_prod
+
+                ct_container_descriptioncontainer_text'>Condition: Used</text>
                 <text className='mkt_product_container_descriptioncontainer_text'>Last Purchased For: $3.50</text>
                 <text className='mkt_product_container_descriptioncontainer_text'>Original Sale Date: 01/01/1991</text>
             </div>
