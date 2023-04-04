@@ -1,0 +1,568 @@
+/* ~~~~~~~~~~~~~~ CO_CertCard ~~~~~~~~~~~~~~ */
+
+.co_certcard{
+    width: 93%;
+    height: 175px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: center;
+    padding:20px;
+    background-color: #333333;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.certimg{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 48px;
+}
+
+.certdetails{
+    color: white;
+    font-size: 24px;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Header ~~~~~~~~~~~~~~ */
+
+.co_header{
+    width:100%;
+    height:125px;
+    display:flex;
+    position:relative;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #333333;
+}
+
+.personicon{
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.usergreeting{
+    display: flex;
+    width: 40%;
+    height:100%;
+    align-items: center;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    color:white;
+}
+
+.greetingmessage{
+    font-family: system-ui;
+    font-style:normal;
+    font-weight: 400;
+}
+
+.searchbarcontainer{
+    right: 0px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 0px;
+    color: white;
+    font-family: system-ui;
+    font-style:normal;
+    font-weight: 400;
+    margin-right: 60px;
+    
+}
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Home_BlockChainState ~~~~~~~~~~~~~~ */
+
+.co_home_blockchainstate{
+    background-color: #191919;
+    color: white;
+    border-radius: 10px;
+    width:80%;
+    margin:20px;
+    /* flex:auto; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.blockchainstatecontainer{
+    margin-right: 0px;
+    flex:auto;
+    flex-direction: row;
+    align-items: center;
+    display:flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.blockchainpic{
+    width: 150px;
+}
+
+.blockchaindetails{
+    width:100%;
+    word-wrap: break-word;
+}
+
+.bcdt{
+    overflow: hidden;
+    padding-right: 10px;
+    height:100%;
+    flex:auto;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Home_CreateForm ~~~~~~~~~~~~~~ */
+
+.co_home_createform{
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    border-radius: 24px;
+    justify-content: flex-start;
+    background-color: #131313;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.createformlabel{
+    color:white;
+    font-size: 24px;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Home_EmployeeInfo ~~~~~~~~~~~~~~ */
+
+.co_home_employeeinfo{
+    background-color: #191919;
+    color: white;
+    border-radius: 10px;
+    width:82%;
+    margin:20px;
+    /* flex:1; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.employeeinfocontent{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.info{
+    flex: auto;
+    flex-direction: row;
+    display:flex;
+    position:relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.infolabel{
+    padding-right: 20px;
+}
+
+h1{
+    font-weight: 400;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Home_MessageBoard ~~~~~~~~~~~~~~ */
+
+.co_home_messageboard{
+    background-color: #191919;
+    color: white;
+    border-radius: 10px;
+    width:80%;
+    /* margin:20px; */
+    /* flex:auto; */
+    /* margin-bottom: 20px; */
+    margin-top: 10px;
+    padding: 40px;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Home_WorkStates ~~~~~~~~~~~~~~ */
+
+.co_home_workstates{
+    background-color: #191919;
+    color: white;
+    border-radius: 10px;
+    width:80%;
+    margin:20px;
+    /* flex:auto; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.workstatescontent{
+    margin-right: 0px;
+    flex:auto;
+    flex-direction: row;
+    align-items: center;
+    display:flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.workstatesinfo{
+    align-content: center;
+    flex:auto;
+    flex-direction: column;
+    width:fit-content;
+}
+
+.workstatesinfolabel{
+    padding-right: 0px;
+    color: #d4af37;
+    font-size: 48px;
+    font-weight: 400;
+    
+    align-items: center;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ CO_LoginForm ~~~~~~~~~~~~~~ */
+
+.cllogincard{
+    width: 437px;
+    height: 500px;
+    display: flex;
+    box-shadow: 5px 5px 5px 0px #d4bb67;
+    align-items: flex-start;
+    padding-top: 16px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.clloginform{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cologincard{
+    width: 437px;
+    height: 500px;
+    display: flex;
+    box-shadow: 5px 5px 5px 0px #333333;
+    align-items: flex-start;
+    padding-top: 16px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.cologinform{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.loginheading{
+    color: black;
+    align-self: center;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.usernameinput{
+    width: 75%;
+    height: 62.5px;
+    align-self: center;
+    border-color: #d4af37;
+    border-radius: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.passwordinput {
+    width: 75%;
+    height: 62.5px;
+    align-self: center;
+    margin-top: var(--dl-space-space-halfunit);
+    border-color: #d4af37;
+    border-radius: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+}
+
+.forgotpassword{
+    align-self: center;
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Logs ~~~~~~~~~~~~~~ */
+
+.co_logs{
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    border-radius: 24px;
+    justify-content: flex-start;
+    background-color: #131313;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rightlogscontainer{
+    flex: auto;
+    display: flex;
+    align-self:flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+    width:45%;
+    height:50%;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Revoke ~~~~~~~~~~~~~~ */
+
+.co_revoke{
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    border-radius: 24px;
+    justify-content: flex-start;
+    background-color: #131313;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.revokelabel{
+    color:white;
+    font-size: 24px;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.leftcontainer{
+    flex: auto;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width:25%;
+    height:100%;
+}
+
+.rightcontainer{
+    align-self:flex-start;
+    align-items: center;
+    flex-direction: column;
+    width:55%;
+    padding-top: 30px;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Sidebar ~~~~~~~~~~~~~~ */
+
+.companyname{
+    width: 100px;
+    object-fit: cover;
+    color:white;
+    text-decoration: none;
+}
+
+.companylogo{
+    color: white;
+    font-size: 28px;
+    align-self: center;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: 100px;
+}
+
+.co_sidebar{
+    background-color:black;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-self: flex-start;
+    padding-top: 0px;
+    flex-direction: column;
+    background-color: black;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.company{
+    width: 270px;
+    display:flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 100px;
+    padding-top: 24px;
+}
+
+.sidebarlist{
+    color:white;
+    text-decoration: none;
+}
+
+/* a{
+    text-decoration:none;
+    color:white;
+    font-weight: 300;
+} */
+
+/* img{
+    width:50px;
+    padding-right: 10px;
+} */
+
+
+.sidebarbutton{
+    display:flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin:10px;
+}
+
+.category{
+    display:flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Transfer ~~~~~~~~~~~~~~ */
+
+.co_updateform{
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    border-radius: 24px;
+    justify-content: flex-start;
+    background-color: #131313;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.updateformlabel{
+    color:white;
+    font-size: 24px;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ CO_Update ~~~~~~~~~~~~~~ */
+
+.co_updateform{
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    border-radius: 24px;
+    justify-content: flex-start;
+    background-color: #131313;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.updateformlabel{
+    color:white;
+    font-size: 24px;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+

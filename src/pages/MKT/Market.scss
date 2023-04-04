@@ -1,0 +1,106 @@
+/* ~~~~~~~~~~~~~~~ Market ~~~~~~~~~~~~~~~ */
+
+.market{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.featuredproducts{
+    flex: 0 0 auto;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.featuredproducts_title{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-self: center;
+    margin-top: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.featuredproducts_title_text{
+    font-size: 24px;
+}
+
+.featuredproducts_productcard{
+    height: 365px;
+    width: 1064px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.marketbanner{
+    width: 1064px;
+    height: 250px;
+    align-self: center;
+    margin-top: 36px;
+    object-fit: cover;
+}
+
+
+
+/* ~~~~~~~~~~~~~~~ MarketBags ~~~~~~~~~~~~~~~ */
+
+.marketbags{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.marketproductcardgrid{
+    flex-wrap: wrap;
+    width: 1100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+/* ~~~~~~~~~~~~~~~ MarketBrowse ~~~~~~~~~~~~~~~ */
+
+
+
+/* ~~~~~~~~~~~~~~~ MarketProduct ~~~~~~~~~~~~~~~ */
+
+.marketproduct{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.marketproduct_mktproduct{
+    margin: 32px;
+    margin-bottom: -16px;
+}
+
+
+/* ~~~~~~~~~~~~~~~ MarketShoes ~~~~~~~~~~~~~~~ */
+
+
+
+/* ~~~~~~~~~~~~~~~ MarketWatches ~~~~~~~~~~~~~~~ */
+
+
+
+/* ~~~~~~~~~~~~~~~ MarketWishlist ~~~~~~~~~~~~~~~ */

@@ -1,0 +1,166 @@
+/* ~~~~~~~~~~~~~~ AboutUs ~~~~~~~~~~~~~~ */
+
+.aboutus{
+    
+}
+
+.aboutuscontentcontainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.aboutuscontent{
+    background-color: black;
+    width: 1064px;
+    height: auto;
+    align-self: center;
+    display: flex;
+    margin-top: 36px;
+    object-fit: cover;
+    color: white;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.aboutusheader{
+    font-size: 48px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+/* ~~~~~~~~~~~~~~ ClientSignUp ~~~~~~~~~~~~~~ */
+
+.signupcontainer{
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    flex-direction: column;
+    opacity: 0.95;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ CorporateLogin ~~~~~~~~~~~~~~ */
+
+
+
+
+/* ~~~~~~~~~~~~~~ HomePage ~~~~~~~~~~~~~~ */
+
+
+
+.backgroundvideo{
+    position:absolute;
+    top:0px;
+    height: 100%;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.hp_presentedproducts{
+    z-index: 100;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.hp_header{
+    height:300px;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ LoginPage ~~~~~~~~~~~~~~ */
+
+.loginpage{
+    width:100%;
+    display:flex;
+    //overflow: auto;
+    height: 100vh;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.columncontainer{
+    flex: 0 0 auto;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.logincolumn{
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:50%;
+    height:100%;
+}
+
+.companyform{
+    width:auto;
+    height: auto;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20%;
+    opacity: 0.95;
+}
+
+.clientform{
+    width:auto;
+    height: auto;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20%;
+    opacity: 0.95;
+}
+
+.centerHeader{
+    position:fixed;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.companyname{
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px; 
+    width:auto;
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FAE9A8;
+}
+
+.loginpagehomelink{
+    text-decoration: none;
+}

@@ -1,0 +1,90 @@
+ import React from 'react'
+ import './Market.scss'
+ import MKT_Header from '../../components/MKT/MKT_Header.js';
+ import { styled } from '@mui/material/styles';
+ import MKT_ProductCard from '../../components/MKT/MKT_ProductCard';
+ import watchBanner from '../../assets/Images/qq--20230301222807-1.png'
+ import bagsBanner from '../../assets/Images/image-10.png'
+ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+ import { Button } from '@mui/material';
+ import { Link } from "react-router-dom";
+
+
+
+ const Img = styled('img')({
+     margin: 'auto',
+     display: 'block',
+     maxWidth: '100%',
+     maxHeight: '100%',
+     paddingBottom: '50px',
+     paddingTop: '50px'
+ });
+
+
+ function Market() {
+     return (
+         <div className='homepage'>
+             <div className='mkt_header'>
+                 <MKT_Header />
+             </div>
+             <div>
+                 <h1 className='mktlabel'>Rolex</h1>
+                 <div className='mktproducts'>
+                     <MKT_ProductCard />
+                     <MKT_ProductCard />
+                     <MKT_ProductCard />
+                     <Button component={Link} to="/Market/Watches" variant="outlined" sx={{color: 'white', borderRadius: "100px", marginLeft: "32px", borderColor: "black", backgroundColor:"black", width:"60px", height:"60px", ':hover':{backgroundColor: "whitesmoke", color:"black", borderColor:"black"}}}><NavigateNextIcon /></Button>
+                    
+                 </div>
+                
+             </div>
+             <div>
+                 <h1 className='mktlabel'>Omega</h1>
+                 <div className='mktproducts'>
+                     <MKT_ProductCard />
+                     <MKT_ProductCard />
+                     <MKT_ProductCard />
+                     <Button component={Link} to="/Market/Watches" variant="outlined" sx={{color: 'white', borderRadius: "100px", marginLeft: "32px", borderColor: "black", backgroundColor:"black", width:"60px", height:"60px", ':hover':{backgroundColor: "whitesmoke", color:"black", borderColor:"black"}}}><NavigateNextIcon /></Button>
+                 </div>
+                
+             </div>
+
+             <div>
+                 <Img src={watchBanner} />
+                
+             </div>
+             <div>
+                 <Img src={bagsBanner} />
+                
+             </div>
+
+             <div>
+                 <h1 className='mktlabel'>Chanel</h1>
+                 <div className='mktproducts'>
+                     <MKT_ProductCard />
+                     <MKT_ProductCard />
+                     <MKT_ProductCard />
+                     <Button component={Link} to="/Market/Bags" variant="outlined" sx={{color: 'white', borderRadius: "100px", marginLeft: "32px", borderColor: "black", backgroundColor:"black", width:"60px", height:"60px", ':hover':{backgroundColor: "whitesmoke", color:"black", borderColor:"black"}}}><NavigateNextIcon /></Button>
+                 </div>
+                
+             </div>
+
+             <div>
+                 <h1 className='mktlabel'>abc</h1>
+                 <div className='mktproducts'>
+                     <MKT_ProductCard />
+                     <MKT_ProductCard />
+                     <MKT_ProductCard />
+                     <Button component={Link} to="/Market/Bags" variant="outlined" sx={{color: 'white', borderRadius: "100px", marginLeft: "32px", borderColor: "black", backgroundColor:"black", width:"60px", height:"60px", ':hover':{backgroundColor: "whitesmoke", color:"black", borderColor:"black"}}}><NavigateNextIcon /></Button>
+                 </div>
+                
+             </div>
+
+            
+
+         </div>
+        
+     );
+ }
+
+ export default Market;

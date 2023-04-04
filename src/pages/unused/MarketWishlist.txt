@@ -1,0 +1,28 @@
+// import React from 'react'
+// import './MarketWishlist.scss'
+
+// import MKT_Header from '../../components/MKT/MKT_Header.js';
+// import MKT_Wishlist from '../../components/MKT/MKT_Wishlist';
+
+// function MarketWishlist() {
+//     return (
+//         <div className='homepage'>
+//             <div className='mkt_header'>
+//                 <MKT_Header /> 
+//             </div>
+//             <div>
+//                 <h1 className='mktlabel'>Wishlist</h1>
+//                 <div className='mktcartitem'>
+//                     <MKT_Wishlist />
+//                     <MKT_Wishlist />
+//                     <MKT_Wishlist />
+//                 </div>
+                
+//             </div>
+
+//         </div>
+        
+//     );
+// }
+
+// export default MarketWishlist;
